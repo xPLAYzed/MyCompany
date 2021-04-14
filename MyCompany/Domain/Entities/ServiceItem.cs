@@ -8,7 +8,7 @@ namespace MyCompany.Domain.Entities
         [Display(Name = "Марка Авто")]
         public override string Title { get; set; }
 
-        [Display(Name = "Краткое описание авто")]
+        [Display(Name = "Цена автомобиля")]
         public override string Subtitle { get; set; }
 
         [Display(Name = "Полное описание авто")]
